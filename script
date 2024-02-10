@@ -1,0 +1,5 @@
+import city from 0x05
+
+pub fun main(): [city.house] {
+    return city.collection
+}
