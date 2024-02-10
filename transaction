@@ -1,0 +1,9 @@
+import city from 0x05
+
+transaction(hno:Int,typee:String) {
+  prepare(signer: AuthAccount) {
+  }
+  execute {
+    city.add_to_collection(h:city.house(h_no: hno, type: typee))
+  }
+}
